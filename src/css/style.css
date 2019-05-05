@@ -1,5 +1,5 @@
 html, * {
-	font-size: 120%;
+	font-size: 18px;
 	-moz-box-sizing: content-box; /* or `border-box` */
 	-webkit-box-sizing: content-box;
 	box-sizing: content-box;
@@ -33,6 +33,8 @@ body {
 	align-items: center;
 	text-align: center;
 	height: 99vh;
+
+	background-color: grey;
 /*
 	background: url('https://images.unsplash.com/photo-1506784693919-ef06d93c28d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -47,6 +49,25 @@ h1 {
 	margin-bottom: .4em;
 }
 
+h3 {
+	margin-top: 2rem;
+}
+
+#wrapper {
+	background-color: white;
+	padding: 10vmin;
+}
+
 button {
 	display: block;
+	margin: 1rem 0;
+	border: 0px;
+	background-color: none;
+	color: blue;
+}
+
+.Reset, .Start, .Skip {
+	font-size: .8rem;
+	display: inline;
+	color: grey;
 }

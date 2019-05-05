@@ -76,8 +76,8 @@ class CardDeck extends React.Component {
 				<h2>Correct: {correct}</h2>
 				<h2>Incorrect: {incorrect}</h2>
 				{this.createCard(deck[index])}
-				{ index === 0 ? null : this.createReset() }
 				{ index === deck.length - 1 ? null : this.createSkip() }
+				{ index === 0 ? null : this.createReset() }
 			</div>
 		);
 	}
