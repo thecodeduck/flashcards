@@ -1,0 +1,52 @@
+html, * {
+	font-size: 120%;
+	-moz-box-sizing: content-box; /* or `border-box` */
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+	font-family: system-ui, sans-serif;
+	font-stretch: normal;
+	font-style: normal;
+	font-variant-numeric: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+::selection {
+  background: #8dff0d; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #8dff0d; /* Gecko Browsers */
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 99vh;
+/*
+	background: url('https://images.unsplash.com/photo-1506784693919-ef06d93c28d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: lighter;
+	margin-bottom: .4em;
+}
+
+button {
+	display: block;
+}
